@@ -1,0 +1,52 @@
+/* ===== Clock.css ===== */
+
+/* Contenitore principale dell’orologio */
+.clock-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #f0f4f8, #ffffff);
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effetto hover (leggera animazione) */
+.clock-container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Titolo con emoji del paese */
+.clock-country {
+  font-size: 1.8em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Ora principale */
+.clock-time {
+  font-size: 3em;
+  color: #1a1a1a;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+/* Data formattata */
+.clock-date {
+  color: #7f8c8d;
+  margin-top: 10px;
+  font-size: 1.1em;
+  text-transform: capitalize;
+}
+
+/* Info sul timezone */
+.clock-timezone {
+  color: #95a5a6;
+  font-size: 0.9em;
+  display: block;
+  margin-top: 8px;
+}
